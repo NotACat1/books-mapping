@@ -1,5 +1,5 @@
 import "./styles.css";
-import { Book, BookInformation } from "./lib/types";
+import { Book, User, Review, BookInformation } from "./lib/types";
 import { getBooks, getUsers, getReviews } from "./lib/api";
 import { useEffect, useState, FC } from "react";
 import Card from "./Card";
